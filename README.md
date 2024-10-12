@@ -51,6 +51,6 @@ R = [a,b,d].
 
 ### Operacijos su natūraliaisiais skaičiais, išreikštais skaitmenų sąrašais. Skaitmenų sąrašo elementai turi būti natūralūs skaičiai nuo 0 iki 9 (ne simboliai '0', '1',...). Nenaudokite Prolog konvertavimo tarp sąrašo ir skaičiaus predikatų (number_chars/2, number_codes/2 ir kt...):
 i_sesiolik(Des,Ses) - Des yra skaičius vaizduojami dešimtainių skaitmenų sąrašu. Ses - tas pats skaičiaus, vaizduojamas šešioliktainių skaitmenų sąrašu. Pavyzdžiui:
-?- des_skaic([1,9,8,5],Ses).
+?- i_sesiolik([1,9,8,5],Ses).
 
 Ses = [7,c,1].
